@@ -11,7 +11,7 @@ Desenvolver um sistema de login em react.
  npm install react-router-dom axios 
 
 # Mapa do Sistema de Login
-## Para Validar o Acesso?
+## Para Validar o Acesso
 ```
 1. Saber que tem um usuário logado.
 2. Se tiver, eu preciso Validar este usu.
@@ -31,6 +31,8 @@ Desenvolver um sistema de login em react.
 2. Atualizo a página.
 ```
 
+## Trabalhar com gerenciamento de estado 
+Para isso trabalharemos com Context
  
 
  
