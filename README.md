@@ -4,7 +4,7 @@ Desenvolver um sistema de login em react.
 ## Criando o projeto com CRA e typescript
  npx create-react-app login-ts --template typescript
 
- ## executando o projeto 
+ ## Executando o projeto 
  npm start
 
  ## Instalando bibliotecas
@@ -17,14 +17,14 @@ Desenvolver um sistema de login em react.
 2. Se tiver, eu preciso Validar este usu.
 3. Se sim, libera o acesso.
 ```
-## Para Realizar o Login:
+## Para Logar:
 ```
 1. Receber os Dados do Login.
 2. Enviar uma requisição para o BackEnd validar estes dados no banco de dados.
 3. Se estiver Correto, Salvar as referências do usuário no browser.
 4. Se estiver errado, avisa que está errado.
 ```
-## Para Realizar o Logout:
+## Para Deslogar:
 ```
 1. Apago a referência que existir no browser.
 1.1. Enviar uma requisição ao BackEnd avisando para destruir aquela referência.
