@@ -32,7 +32,6 @@ Desenvolver um sistema de login em react.
 ```
 
 ## Trabalhar com gerenciamento de estado 
-Para isso trabalharemos com Context
+Para isso trabalharemos com Context.
  
-
  

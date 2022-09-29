@@ -31,8 +31,10 @@ export const AuthProvider = ({ children }: {children: JSX.Element}) => {
   }
 
   const signout = async () => {
-    await api.logout();
+    console.log('signout está sendo executada.');    
     setUser(null);
+    setToken('');
+    await api.logout();
   }
 
   const setToken = (token: string) => {

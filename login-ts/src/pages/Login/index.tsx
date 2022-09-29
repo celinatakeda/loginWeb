@@ -32,9 +32,9 @@ export const Login = () => {
       <input
         type="text"
         value={email}
-        onChange={e => setEmail(e.target.value)}
-        /* Outra forma de fazer
-        onChange={handleEmailInput}*/
+        /*onChange={e => setEmail(e.target.value)}
+        Outra forma de fazer */
+        onChange={handleEmailInput}
         placeholder="Digite seu e-mail" 
       />
 
