@@ -4,19 +4,17 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { ProtectedLayout } from './components/ProtectedLayout';
 import { Login } from './components/Login';
 
-
 function App() {  
   return (    
     <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path='/profile'>
-            
-            <ProtectedLayout>
+          <Route path="/profile">
+            <ProtectedLayout >
               <h2>Olá esse é o componente profile</h2>
             </ProtectedLayout>
-          </Route>
-
+          </Route>                    
+          
           <Route path='/login' element={<Login />} />          
           
         </Routes>
