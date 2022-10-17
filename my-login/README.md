@@ -1,11 +1,14 @@
 # Criando o projeto 
-npx create-react-app my-login
+  `npx create-react-app my-login`
 
 # Executando
-yarn start
+  `yarn start`
 
 # Adicionando o react-router-dom
-yarn add react-router-dom
+  `yarn add react-router-dom`
+
+# Adicionando o axios
+ `yarn add axios`
 
 # Getting Started with Create React App
 
