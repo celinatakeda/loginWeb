@@ -1,12 +1,15 @@
 # Criando o projeto com CRA e typescript
+```
  npx create-react-app login-ts --template typescript
-
- ## Executando o projeto 
+```
+ ## Executando o projeto
+ ```
  npm start
-
+```
  ## Instalando bibliotecas
+ ```
  npm install react-router-dom axios 
-
+```
 # Mapa do Sistema de Login
 ## Para Validar o Acesso
 ```
